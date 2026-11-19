@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Gizmo Code/Gizmo Code.vcxproj" Id="d9951e4f-af4c-4dc9-8eb4-ba423f7f6713" />
+</Solution>
