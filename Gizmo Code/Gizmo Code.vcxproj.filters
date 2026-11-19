@@ -15,8 +15,11 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sample Face Track.cpp">
+    <ClCompile Include="FaceTrack.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClInclude Include="OscSender.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

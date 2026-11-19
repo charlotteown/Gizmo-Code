@@ -71,8 +71,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\charbot\AppData\Local\OpenCV\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\charbot\AppData\Local\OpenCV\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(OPENCV_DIR)\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_DIR)\build\x64\vc16\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -144,7 +144,8 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Sample Face Track.cpp" />
+    <ClCompile Include="FaceTrack.cpp" />
+    <ClInclude Include="OscSender.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
